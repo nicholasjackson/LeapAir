@@ -1,0 +1,13 @@
+<application xmlns="http://ns.adobe.com/air/application/3.9">
+    <id>com.mands.di.LeapTest</id>
+    <name>LeapTest</name>
+    <filename>Leap Test App</filename>
+    <versionNumber>0.1</versionNumber>
+    <versionLabel>0.1 Beta 1</versionLabel>
+    <initialWindow>
+        <content>App.swf</content>
+        <height>720</height>
+        <width>1280</width>
+        <visible>true</visible>
+    </initialWindow>
+</application>

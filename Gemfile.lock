@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    asrake (0.14.1)
+      nokogiri (~> 1.5)
+      rake (>= 0.9, < 11.0)
+      rubyzip (~> 0.9)
+    mini_portile (0.5.2)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
+    rake (10.1.1)
+    rubyzip (0.9.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  asrake (~> 0.14.1)
