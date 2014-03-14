@@ -4,6 +4,8 @@ bin-debug/
 bin-release/
 out
 
+.DS_Store
+
 .idea
 *.iml
 
