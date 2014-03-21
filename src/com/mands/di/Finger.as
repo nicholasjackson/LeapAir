@@ -5,8 +5,8 @@ package com.mands.di {
 import flash.display.Sprite;
 import flash.events.Event;
 
-public class Hand extends Sprite {
-    public function Hand() {
+public class Finger extends Sprite {
+    public function Finger() {
 
         addEventListener(Event.ADDED_TO_STAGE, init);
 
@@ -15,8 +15,8 @@ public class Hand extends Sprite {
     private function init(event:Event):void {
         removeEventListener(Event.ADDED_TO_STAGE,init);
 
-        graphics.beginFill(0xFFFFFF);
-        graphics.drawCircle(0,0,20);
+        graphics.beginFill(0xFFFF00);
+        graphics.drawCircle(0,0,10);
         graphics.endFill();
 
         visible = false;
